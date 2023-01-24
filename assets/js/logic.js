@@ -60,7 +60,6 @@ function checkAnswer() {
         }, 500);
     } else {
         incorrect.classList.remove("hide");
-        //subtract 10 from the timer and update the timer again
         time.textContent = time.textContent - 10;
         incorrectAudio.play();
         setTimeout(function() {
